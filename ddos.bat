@@ -1,6 +1,6 @@
 @echo off
-@color a
+@color a (if you want)
 :ping_loop
 ping -n 1 (Your Ip) | findstr "TTL="
-echo ping on the way 
+echo (your text)
 goto ping_loop
